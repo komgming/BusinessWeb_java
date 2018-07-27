@@ -11,10 +11,11 @@
  <h1>添加商品</h1>
 
 
-
   <form action="product" method="post">
      <input type="hidden" name="operation" value="1"/>
    <table>
+
+
      <tr>
       <td>商品名称</td>
       <td><input type="text" name="pname"/></td>

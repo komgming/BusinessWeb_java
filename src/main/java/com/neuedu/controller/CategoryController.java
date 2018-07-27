@@ -37,6 +37,7 @@ public class CategoryController extends HttpServlet {
 			}else if(operation.equals("2")) {
 				//��ѯ
 				findAll(request,response);
+				jump(request,response);
 			}else if(operation.equals("3")) {
 				//�޸�
 				updateCategory(request,response);

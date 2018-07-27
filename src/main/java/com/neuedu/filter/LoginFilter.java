@@ -14,7 +14,7 @@ import java.io.IOException;
 /**
  * Servlet Filter implementation class LoginFilter
  */
-@WebFilter("/login.jsp")
+/*@WebFilter("/login.jsp")*/
 public class LoginFilter implements Filter {
 
     /**
